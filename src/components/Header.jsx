@@ -5,7 +5,7 @@ export default function Header({ children }) {
   return (
     <>
       <div id="main-header-loading"></div>
-      {fetching > 0 && <progress />}
+      {fetching > 0}
       <header id="main-header">
         <div id="header-title">
           <h1>React Events</h1>
